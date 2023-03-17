@@ -29,7 +29,7 @@ public class SearchButtonLogin {
 
    @Test
     void searchButtonLog() {
-        Selenide.$("a.tn-atom").$(byText("Войти")).click();
+        Selenide.$("a[href='https://app.smetter.ru']").shouldHave(Condition.text("Войти"));
 
 
 
