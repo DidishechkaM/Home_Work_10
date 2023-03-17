@@ -1,0 +1,8 @@
+
+Title: На странице https://smetter.ru/ есть кнопка "Войти"
+Priority/Severity
+Preconditions
+Шаги:
+1. Открыть сайт https://smetter.ru/
+2. Проверить наличие кнопки "Войти"
+Expected result: Кнопка "Войти" есть на странице https://smetter.ru/
