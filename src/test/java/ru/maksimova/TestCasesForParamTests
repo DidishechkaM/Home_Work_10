@@ -1,0 +1,13 @@
+TEST DATA: ["dasha@yandex.ru","parol","Добро пожаловать"]
+           ["klava112@yandex.ru", "123456","Добро пожаловать"]
+Title: В  результате для email TEST_DATA [0]  и паролем TEST_DATA [1] должен отображаться текст TEST_DATA [2]
+Priority/Severity
+Precondition
+Шаги:
+1. Открыть сайт https://app.smetter.ru/login
+2.Ввести валидный логин поле "Логин"
+3.Ввести валидный пароль  поле "Пароль"
+Expected result: Авторизация прошла успешно, на старанице приветственный текст "Добро пожаловать"
+
+
+
