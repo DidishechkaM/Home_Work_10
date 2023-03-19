@@ -13,7 +13,6 @@ Expected result: Авторизация прошла успешно, на ста
 
 
 TEST DATA: ["JAVA", "Atlassian"]
-
 Title: "Проверка числа результатов поиска по тексту на сайте YAHOO.com {0}"
 Priority/Severity
 Precondition
@@ -22,3 +21,12 @@ Precondition
 2.Ввести в поле поиска ввести TEST DATA
 3.Ввести валидный пароль  поле TEST DATA
 Expected result: В поисковой выдаче yahoo отображается 5 результатов
+
+
+TEST DATA: [Max Payne", "Arx Fatalis"]
+Title: "Поиск по запросу {0} отображет текст {0} на странице"
+Priority/Severity
+Шаги:
+1. Открыть сайт https://www.old-games.ru
+2.Ввести в поле поиска ввести TEST DATA
+Expected result: В поисковой выдаче для TEST DATA  отображается текст на странице содержащий TEST DATA
